@@ -5,10 +5,19 @@ REST API-сервис на **Spring Boot** для поиска **N-го макс
 
 ---
 ## 🛠️ Сборка и запуск
+
+### Предварительные требования
+
+Перед запуском убедитесь, что у вас установлены:
+
+- **Docker**
+- **Docker Compose**
+- **Git**
+
 ### 📥 Клонирование проекта:
 ```bash
-git clone https://github.com/your-repo/xlsx-number-finder.git
-cd xlsx-number-finder
+git clone https://github.com/aleksandrbratchin/xlsxnumberfinder.git
+cd xlsxnumberfinder
 ```
 
 ### 🐳 Запуск через Docker Compose:
