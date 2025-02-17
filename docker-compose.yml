@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  xlsx_number_finder_dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xlsx_number_finder_dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - D:/files:/app/files
+    restart: unless-stopped
